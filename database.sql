@@ -7,5 +7,5 @@ CREATE TABLE images (
     title VARCHAR(255) NOT NULL,
     description TEXT,
     filename VARCHAR(255) NOT NULL,
-    upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
 );

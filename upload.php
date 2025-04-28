@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 echo '<div class="alert alert-danger">Error uploading file.</div>';
             }
         } else {
-            echo '<div class="alert alert-danger">File size must be under 5MB.</div>';
+            echo '<div class="alert alert-danger">File size must be under 5MB.</div>';            
         }
     } else {
         echo '<div class="alert alert-danger">Please select a valid image.</div>';
